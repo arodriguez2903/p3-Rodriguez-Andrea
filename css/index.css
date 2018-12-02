@@ -1,0 +1,12 @@
+.container {
+	position: relative;
+	text-align: center;
+	font-size: 200px;
+}
+
+.centered {
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%,50%);
+}

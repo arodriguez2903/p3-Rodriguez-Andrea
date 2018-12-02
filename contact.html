@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>ANDREA</title>
+		<meta charset="utf-8">
+			<link href="./css/assignment5.css" rel="stylesheet" type="text/css">
+	</head>
+
+	<body>
+		<header>
+      <nav>
+        <ul>
+    			<li><a href='about.html'>About Us</a></li>
+          <li><a href='experience.html'>Experience</a></li>
+          <li><a href='index.html'>Home</a></li>
+          <li><a href='portfolio.html'>Portfolio</a></li>
+    			<li><a href='contact.html'>Contact</a></li>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container">
+        <h1>Contact Me</h1>
+        <p> Let's be friends!</p>
+        <p class="secondline"> Leave me a message below</p>
+        <form id="test_form" name="test_form" method="post" action="form.php" onsubmit="return validateForm(this)">
+          <div class="name input-section">
+            <!--label for="name" class="label_input_wrap">Name</label-->
+            <input class="input-section-item" type="name" name="name" id="name" placeholder="Name Here"/>
+          </div>
+          <div class="email input-section">
+            <!--label for="email" class="label_input_wrap">Email</label-->
+            <input class="input-section-item" type="email" name="email" id="email" placeholder="Email Here"/>
+          </div>
+          <div class="comments input-section">
+            <!--label for="comments" class="label_input_wrap">Message</label-->
+            <textarea class="input-section-item" name="comments" id="comments" rows"8" placeholder="Message Here"></textarea>
+          <div class="submit input-section">
+            <input type="submit"value="Send"/>
+          </div>
+        </form>
+      </div>
+    </main>
+
+  </body>
+</html>
