@@ -4,10 +4,11 @@
 		<title>ANDREA</title>
 		<meta charset="utf-8">
 			<link href="./css/assignment5.css" rel="stylesheet" type="text/css">
+			<link href="./css/portfolio.css" rel="stylesheet" type="text/css">
 	</head>
 
 	<body>
-		<header>
+    <header>
       <nav>
         <ul>
     			<li><a href='about.html'>About Us</a></li>
@@ -20,26 +21,50 @@
 
     <main>
       <div class="container">
-        <h1>Portfolio</h1>
-        <p> Let's be friends!</p>
-        <p class="secondline"> Leave me a message below</p>
-        <form id="test_form" name="test_form" method="post" action="form.php" onsubmit="return validateForm(this)">
-          <div class="name input-section">
-            <!--label for="name" class="label_input_wrap">Name</label-->
-            <input class="input-section-item" type="name" name="name" id="name" placeholder="Name Here"/>
-          </div>
-          <div class="email input-section">
-            <!--label for="email" class="label_input_wrap">Email</label-->
-            <input class="input-section-item" type="email" name="email" id="email" placeholder="Email Here"/>
-          </div>
-          <div class="comments input-section">
-            <!--label for="comments" class="label_input_wrap">Message</label-->
-            <textarea class="input-section-item" name="comments" id="comments" rows"8" placeholder="Message Here"></textarea>
-          <div class="submit input-section">
-            <input type="submit"value="Send"/>
-          </div>
-        </form>
+					<table width="100%" border="0">
+						<tr>
+								<td width="50%">
+									<div class="portfolioTopLeft">
+										<a href="#branding">
+											<img src='./images/Portfolio/Branding-Cover.png' style="width:100%" class="branding">
+										</a>
+										<div class="portfolioCentered">Branding</div>
+									</div>
+								</td>
+								<td width="50%">
+									<a href="#travel">
+										<img src='./images/Portfolio/Travel-Cover.jpg' style="width:100%"class="travel">
+									</a
+								</td>
+						</tr>
+						<tr>
+								<td width="50%">
+									<a href="#blog">
+										<img src='./images/Portfolio/Blog-Cover.jpg' style="width:100%"class="blog">
+									</a>
+								</td>
+								<td width="50%">
+									<a href="#events">
+										<img src='./images/Portfolio/Events-Cover.png' style="width:100%"class="events">
+									</a>
+								</td>
+						</tr>
+					</table>
       </div>
+
+
+			<div id="branding">
+			</div>
+
+			<div id="travel">
+			</div>
+
+			<div id="blog">
+			</div>
+
+			<div id="events">
+			</div>
+
     </main>
 
   </body>

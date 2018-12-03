@@ -1,0 +1,40 @@
+.branding {
+	position: relative;
+	text-align: center;
+	font-size: 50px;
+	color:#333333;
+}
+
+.travel {
+	position: relative;
+	text-align: center;
+	font-size: 50px;
+	color:#333333;
+}
+
+.blog {
+	position: relative;
+	text-align: center;
+	font-size: 50px;
+	color:#333333;
+}
+
+.events {
+	position: relative;
+	text-align: center;
+	font-size: 50px;
+	color:#333333;
+}
+
+.portfolioTopLeft {
+	position: relative;
+	text-align: center;
+	font-size: 50px;
+}
+
+.portfolioCentered {
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%,50%);
+}
