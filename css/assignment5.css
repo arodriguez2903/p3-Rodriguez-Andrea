@@ -81,6 +81,7 @@ p::first-letter{
 	height: 250px;
 	border:2px solid #ba9f95;
 	border-radius: 25px;
+	margin-left: 5px;
 }
 
 .contactFooter {
