@@ -11,3 +11,30 @@
 	padding-left: 5px;
 	padding-right: 5px;
 }
+
+.longname {
+	/*width: 100px;
+	height: 120px;*/
+	animation-name: namebounce;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	-webkit-animation-name:namebounce; /* Safari 4.0 - 8.0*/
+	-webkit-animation-duration:4s; /* Safari 4.0 - 8.0*/
+	-webkit-animation-iteration-count:infinite; /* Safari 4.0 - 8.0*/
+}
+
+@keyframes namebounce {
+  0%   {width:50%;}
+  25%  {width:70%;}
+  50%  {width:90%;}
+  75%  {width:100%;}
+  100% {width:50%;}
+}
+
+@-webkit-keyframes namebounce {
+  0%   {width:50%;}
+  25%  {width:70%;}
+  50%  {width:90%;}
+  75%  {width:100%;}
+  100% {width:50%;}
+}
