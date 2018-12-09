@@ -79,6 +79,8 @@ p::first-letter{
   float: right;
 	width: 200px;
 	height: 250px;
+	border:2px solid #ba9f95;
+	border-radius: 25px;
 }
 
 .contactFooter {
